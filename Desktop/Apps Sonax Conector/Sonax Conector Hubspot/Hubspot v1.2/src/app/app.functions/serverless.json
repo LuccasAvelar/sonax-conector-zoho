@@ -1,0 +1,16 @@
+{
+  "appFunctions": {
+    "myFunc": {
+      "file": "example-function.js",
+      "secrets": []
+    },
+    "getContactData": {
+      "file": "getContactData.js",
+      "secrets": ["privatekey2"]
+    },
+    "initiateCall": {
+      "file": "initiateCall.js",
+      "secrets": []
+    }
+  }
+}

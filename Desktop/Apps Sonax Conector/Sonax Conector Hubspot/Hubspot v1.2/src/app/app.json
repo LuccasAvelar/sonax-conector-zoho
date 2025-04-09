@@ -1,0 +1,19 @@
+{
+  "name": "Sonax Conector",
+  "description": "Aplicativo para realizar ligações pela Sonax",
+  "uid": "sonax_call_connector",
+  "scopes": ["crm.objects.contacts.read", "crm.objects.contacts.write"],
+  "public": false,
+  "extensions": {
+    "crm": {
+      "cards": [
+        {
+          "file": "extensions/example-card.json"
+        }
+      ]
+    }
+  },
+  "webhooks": {
+    "file": "./webhooks/webhooks.json"
+  }
+}
