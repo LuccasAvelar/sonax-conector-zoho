@@ -7,7 +7,11 @@
     "module": {
       "file": "Example.jsx"
     },
-    "objectTypes": [{ "name": "contacts" }],
+    "objectTypes": [
+      { "name": "contacts" },
+      { "name": "companies" },
+      { "name": "deals" }
+    ],
     "width": "NARROW"
   }
 }

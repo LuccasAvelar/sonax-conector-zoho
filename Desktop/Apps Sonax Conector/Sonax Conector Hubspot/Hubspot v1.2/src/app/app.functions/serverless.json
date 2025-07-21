@@ -11,6 +11,10 @@
     "initiateCall": {
       "file": "initiateCall.js",
       "secrets": []
+    },
+    "sendToWebhook": {
+      "file": "sendToWebhook.js",
+      "secrets": []
     }
   }
 }

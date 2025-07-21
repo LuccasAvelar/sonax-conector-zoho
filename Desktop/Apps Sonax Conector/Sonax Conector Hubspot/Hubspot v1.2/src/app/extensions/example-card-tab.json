@@ -1,0 +1,16 @@
+{
+  "type": "crm-card",
+  "data": {
+    "title": "Sonax Telefonia (Tab)",
+    "uid": "sonax_call_connector_card_tab",
+    "location": "crm.record.tab",
+    "module": {
+      "file": "Example.jsx"
+    },
+    "objectTypes": [
+      { "name": "contacts" },
+      { "name": "companies" },
+      { "name": "deals" }
+    ]
+  }
+}
